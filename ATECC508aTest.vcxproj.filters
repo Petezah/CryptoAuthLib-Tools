@@ -197,5 +197,6 @@
     <None Include="cryptoauthlib\lib\tls\ec_cert-508.csr">
       <Filter>cryptoauthlib\tls</Filter>
     </None>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

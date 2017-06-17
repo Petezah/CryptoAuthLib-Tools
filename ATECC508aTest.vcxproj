@@ -54,7 +54,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="atec_hal_raspi_i2c.cpp" />
-	<ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_client.c" />
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_client.c" />
     <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_date.c" />
     <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_def.c" />
     <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_der.c" />
@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cryptoauthlib\lib\tls\ec_cert-508.csr" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
