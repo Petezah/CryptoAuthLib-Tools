@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cryptoauthlib\lib\basic\atca_basic.c">
+      <Filter>cryptoauthlib\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\basic\atca_helpers.c">
+      <Filter>cryptoauthlib\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\host\atca_host.c">
+      <Filter>cryptoauthlib\host</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\hal\atca_hal.c">
+      <Filter>cryptoauthlib\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atca_cfgs.c">
+      <Filter>cryptoauthlib</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atca_command.c">
+      <Filter>cryptoauthlib</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atca_device.c">
+      <Filter>cryptoauthlib</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atca_iface.c">
+      <Filter>cryptoauthlib</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\atca_crypto_sw_ecdsa.c">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\atca_crypto_sw_rand.c">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\atca_crypto_sw_sha1.c">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\atca_crypto_sw_sha2.c">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\hashes\sha1_routines.c">
+      <Filter>cryptoauthlib\crypto\hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\crypto\hashes\sha2_routines.c">
+      <Filter>cryptoauthlib\crypto\hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="gnublin.cpp" />
+    <ClCompile Include="atec_hal_raspi_i2c.cpp" />
+    <ClCompile Include="cryptoauthlib\lib\tls\atcatls.c">
+      <Filter>cryptoauthlib\tls</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\tls\atcatls_cfg.c">
+      <Filter>cryptoauthlib\tls</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_client.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_date.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_def.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_der.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_host_hw.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptoauthlib\lib\atcacert\atcacert_host_sw.c">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cryptoauthlib">
+      <UniqueIdentifier>{c9d28c19-bb1f-43ff-b483-dc08a6d1361c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\basic">
+      <UniqueIdentifier>{d970b027-b355-497f-9464-22e4b84f8c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\host">
+      <UniqueIdentifier>{28b06ae6-42df-4bb3-865d-951a98c96365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\hal">
+      <UniqueIdentifier>{972c4d3d-db55-446b-bdf0-e629f20cf364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\crypto">
+      <UniqueIdentifier>{3994b54e-cca9-4442-94bb-b6f64f671677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\crypto\hashes">
+      <UniqueIdentifier>{ac5abd2c-b17e-4ee1-b7d7-d5b7e32979a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\tls">
+      <UniqueIdentifier>{99be4d32-78de-4826-b558-cf1163e5408e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptoauthlib\atcacert">
+      <UniqueIdentifier>{e256dee2-009d-4683-a6af-fbfd446a6df0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cryptoauthlib\lib\basic\atca_basic.h">
+      <Filter>cryptoauthlib\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\basic\atca_helpers.h">
+      <Filter>cryptoauthlib\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\host\atca_host.h">
+      <Filter>cryptoauthlib\host</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\hal\atca_hal.h">
+      <Filter>cryptoauthlib\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_bool.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_cfgs.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_command.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_compiler.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_device.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_devtypes.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_iface.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atca_status.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\cryptoauthlib.h">
+      <Filter>cryptoauthlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\hal\atca_start_config.h">
+      <Filter>cryptoauthlib\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\hal\atca_start_iface.h">
+      <Filter>cryptoauthlib\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\atca_crypto_sw.h">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\atca_crypto_sw_ecdsa.h">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\atca_crypto_sw_rand.h">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\atca_crypto_sw_sha1.h">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\atca_crypto_sw_sha2.h">
+      <Filter>cryptoauthlib\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\hashes\sha1_routines.h">
+      <Filter>cryptoauthlib\crypto\hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\crypto\hashes\sha2_routines.h">
+      <Filter>cryptoauthlib\crypto\hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="gnublin.h" />
+    <ClInclude Include="cryptoauthlib\lib\tls\atcatls.h">
+      <Filter>cryptoauthlib\tls</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\tls\atcatls_cfg.h">
+      <Filter>cryptoauthlib\tls</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_host_sw.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_client.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_date.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_def.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_der.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptoauthlib\lib\atcacert\atcacert_host_hw.h">
+      <Filter>cryptoauthlib\atcacert</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cryptoauthlib\lib\tls\ec_cert-508.csr">
+      <Filter>cryptoauthlib\tls</Filter>
+    </None>
+  </ItemGroup>
+</Project>
