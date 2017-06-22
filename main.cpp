@@ -31,16 +31,14 @@ int main(void)
 		//LOG(LL_ERROR, ("ATCA: Failed to get chip info"));
 		goto out;
 	}
-	printf("revision\n");
-	atcab_printbin(revision, 4, true);
+	atcab_printbin_label((const uint8_t*)"revision", revision, 4);
 
 	status = atcab_read_serial_number(serial);
 	if (status != ATCA_SUCCESS) {
 		//LOG(LL_ERROR, ("ATCA: Failed to get chip serial number"));
 		goto out;
 	}
-	printf("serial\n");
-	atcab_printbin(serial, ATCA_SERIAL_NUM_SIZE, true);
+	atcab_printbin_label((const uint8_t*)"serial", serial, ATCA_SERIAL_NUM_SIZE);
 
 	bool config_is_locked, data_is_locked;
 	status = atcab_is_locked(LOCK_ZONE_CONFIG, &config_is_locked);
@@ -58,10 +56,13 @@ int main(void)
 		atcab_get_zone_size(ATCA_ZONE_DATA, i, &dataSize[i]);
 	}
 
+	uint8_t configData[ATCA_CONFIG_SIZE];
+	atcab_read_bytes_zone(ATCA_ZONE_CONFIG, 0, 0, configData, ATCA_CONFIG_SIZE);
+	atcab_printbin_label((const uint8_t*)"config", configData, sizeof(configData));
+
 	uint8_t num[32];
 	status = atcab_random(num);
-	printf("random\n");
-	atcab_printbin(num, sizeof(num), true);
+	atcab_printbin_label((const uint8_t*)"random" ,num, sizeof(num));
 
 out:
 	return 0;

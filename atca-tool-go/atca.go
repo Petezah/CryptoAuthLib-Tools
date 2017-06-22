@@ -9,13 +9,16 @@ import (
 
 	"./atca"
 
+	"fmt"
+
 	"github.com/cesanta/errors"
 	yaml "gopkg.in/yaml.v2"
 )
 
 var (
-	filename = flag.String("filename", "", "Filename to read or write")
-	format   = flag.String("format", "", "File format: json, yaml or hex")
+	inputfile  = flag.String("inputfile", "", "Filename to read")
+	outputfile = flag.String("outputfile", "", "Filename to write")
+	format     = flag.String("format", "", "File format: json, yaml or hex")
 )
 
 func getFormat(f, fn string) string {
@@ -34,7 +37,7 @@ func getFormat(f, fn string) string {
 }
 
 func atcaGetConfig(confData []byte) error {
-	fn := *filename
+	fn := *outputfile
 	format := *format
 	f := getFormat(format, fn)
 
@@ -65,12 +68,12 @@ func atcaGetConfig(confData []byte) error {
 	return nil
 }
 
-func atcaSetConfig(confData []byte) error {
-	fn := *filename
+func atcaSetConfig(confData []byte) ([]byte, error) {
+	fn := *inputfile
 	format := *format
 	data, err := ioutil.ReadFile(fn)
 	if err != nil {
-		return errors.Trace(err)
+		return nil, errors.Trace(err)
 	}
 
 	f := getFormat(format, fn)
@@ -83,24 +86,24 @@ func atcaSetConfig(confData []byte) error {
 			err = json.Unmarshal(data, &c)
 		}
 		if err != nil {
-			return errors.Annotatef(err, "failed to decode %s as %s", fn, f)
+			return nil, errors.Annotatef(err, "failed to decode %s as %s", fn, f)
 		}
 
 		confData, err = atca.WriteBinaryConfig(&c)
 		if err != nil {
-			return errors.Annotatef(err, "encode %s", fn)
+			return nil, errors.Annotatef(err, "encode %s", fn)
 		}
 	} else if f == "hex" {
 		confData = atca.ReadHex(data)
 	} else {
-		return errors.Errorf("%s: format not specified and could not be guessed", fn)
+		return nil, errors.Errorf("%s: format not specified and could not be guessed", fn)
 	}
 
 	if len(confData) != atca.ConfigSize {
-		return errors.Errorf("%s: expected %d bytes, got %d", fn, atca.ConfigSize, len(confData))
+		return nil, errors.Errorf("%s: expected %d bytes, got %d", fn, atca.ConfigSize, len(confData))
 	}
 
-	return nil
+	return confData, nil
 }
 
 var (
@@ -143,6 +146,20 @@ var (
 func main() {
 	flag.Parse()
 
-	config := testConfigGolden
-	atcaGetConfig(config[:])
+	var config []byte
+	if *inputfile == "" {
+		config = testConfigGolden[:]
+	} else {
+		fmt.Printf("Reading file %s\n", *inputfile)
+		inputConfig, setError := atcaSetConfig(config)
+		if setError != nil {
+			fmt.Println(setError)
+		} else {
+			config = inputConfig
+		}
+	}
+	getError := atcaGetConfig(config)
+	if getError != nil {
+		fmt.Println(getError)
+	}
 }
