@@ -1,7 +1,16 @@
 var a00026 =
 [
-    [ "mode", "a00196.html#ga1a6b6fb557d8d37d59700faf4e4c9167", null ],
-    [ "num_in", "a00196.html#ga02a9d64ea363dc3b231b8cc0b317de8a", null ],
-    [ "rand_out", "a00196.html#ga75f7197e2840bcf9fe00722e739fdd9c", null ],
-    [ "temp_key", "a00196.html#gaa17e031da4b22938bed1c21161ba371a", null ]
+    [ "digest", "a00026.html#a0b448fbaa0c4f1770b7c3f53acf265c5", null ],
+    [ "for_invalidate", "a00026.html#ac3544274ceb4f8950b3a5fe6640be634", null ],
+    [ "is_slot_locked", "a00026.html#afaeb2ef8df7a105b7f93a9fdb82fd6e8", null ],
+    [ "key_config", "a00026.html#af209160ffa65b538728640eb34e4be75", null ],
+    [ "key_id", "a00026.html#ac21eed4200889cc115d16a781871d01c", null ],
+    [ "message", "a00026.html#a35f4a3225daf3021decdc4ecea74fa46", null ],
+    [ "mode", "a00026.html#a37e90f5e3bd99fac2021fb3a326607d4", null ],
+    [ "slot_config", "a00026.html#a547704fabd162cdaa3d5ce84a111a3fc", null ],
+    [ "sn", "a00026.html#aef45bac2efcd5394c4ed79f73ee16d23", null ],
+    [ "temp_key", "a00026.html#a714b07e0515fd9d20714a4fc2a16c03e", null ],
+    [ "update_count", "a00026.html#a4a25483bf435220f212cbe8f0327b0a6", null ],
+    [ "use_flag", "a00026.html#a0aea6a2aaa9c7c3368d6a394d4c9ae05", null ],
+    [ "verify_other_data", "a00026.html#a04c0e9b276020bed4ed3d7d670ed3881", null ]
 ];

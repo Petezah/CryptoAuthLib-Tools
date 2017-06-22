@@ -1,10 +1,16 @@
 var a00154 =
 [
-    [ "sw_sha256_ctx", "a00052.html", "a00052" ],
-    [ "SHA256_BLOCK_SIZE", "a00154.html#a9c1fe69ad43d4ca74b84303a0ed64f2f", null ],
-    [ "SHA256_DIGEST_SIZE", "a00154.html#a81efbc0fc101b06a914f7ff9e2fbc0e9", null ],
-    [ "sw_sha256", "a00154.html#a5f6c75bec312e0d2faa7d645b62c3898", null ],
-    [ "sw_sha256_final", "a00154.html#ace8eb02759b23942f866ddcd2057390a", null ],
-    [ "sw_sha256_init", "a00154.html#acfb7028e6f10d29c548cbecdbfa53ac8", null ],
-    [ "sw_sha256_update", "a00154.html#a7f5d8ad85631d77bfdb10dfb728bfbce", null ]
+    [ "hal_swi_discover_buses", "a00243.html#ga53864a301dac6efbdbdc3931aa79e23e", null ],
+    [ "hal_swi_discover_devices", "a00243.html#ga7aeab32af6dde57ee3afcfb8ec802a2e", null ],
+    [ "hal_swi_idle", "a00243.html#ga618291172976da96c4f02dc9200c845c", null ],
+    [ "hal_swi_init", "a00243.html#gaf406053c1a3f2a86bdc887f2ff4b663d", null ],
+    [ "hal_swi_post_init", "a00243.html#ga9186e5235979216330ae580290872c77", null ],
+    [ "hal_swi_receive", "a00243.html#ga02e9f36723f0feb21d373898728de04b", null ],
+    [ "hal_swi_release", "a00243.html#ga196dbc62546b39ac3e556a0f7f6b7132", null ],
+    [ "hal_swi_send", "a00243.html#gaeb8b8857192a7710785acce0110e8016", null ],
+    [ "hal_swi_send_flag", "a00243.html#gaae96ea936a2e85d0bcb81b7868ee007d", null ],
+    [ "hal_swi_sleep", "a00243.html#ga252e365a30f2583dae8a8eac073a9f53", null ],
+    [ "hal_swi_wake", "a00243.html#gafc428980ec95e37eee94813db229fe70", null ],
+    [ "swi_bus_ref_ct", "a00243.html#ga4656caa5bd357cc71fe66f4522d89e3f", null ],
+    [ "swi_hal_data", "a00243.html#ga95ca8e0b044cf56e85a8c581a4c703da", null ]
 ];

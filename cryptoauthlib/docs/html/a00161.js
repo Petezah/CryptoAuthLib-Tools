@@ -1,13 +1,18 @@
 var a00161 =
 [
-    [ "DEBUG_PIN", "a00161.html#aac77b9d8c3b5ebb1caa337b6896c7080", null ],
-    [ "DEBUG_PIN_1", "a00161.html#ab12a92582aefe426bb194e0c298e8f98", null ],
-    [ "DEBUG_PIN_2", "a00161.html#a6a2579114d13238c7ba20d147a74090a", null ],
-    [ "swi_uart_deinit", "a00195.html#ga0b1aad3936bf003686d8db7fa2be5132", null ],
-    [ "swi_uart_discover_buses", "a00195.html#gad640b598d581ee7c8a4c804bee602906", null ],
-    [ "swi_uart_init", "a00195.html#ga003b63648f1a5f9eba274760559688f2", null ],
-    [ "swi_uart_mode", "a00195.html#gacc2a96c86ce4c07249b81bc6a7eb2e41", null ],
-    [ "swi_uart_receive_byte", "a00195.html#ga93f3dab17c14f71641ca970998ede823", null ],
-    [ "swi_uart_send_byte", "a00195.html#ga4a4d491006d9683d67838963706ac9c1", null ],
-    [ "swi_uart_setbaud", "a00195.html#gaba296f70baf68b768d6c4bb9cf7ba67d", null ]
+    [ "HID_GUID", "a00243.html#gafa87510c678a9963da73988da4dd44f7", null ],
+    [ "hal_kit_hid_discover_buses", "a00243.html#ga549d0b53127f1bb10e7f34453b8a2d3c", null ],
+    [ "hal_kit_hid_discover_devices", "a00243.html#gadfa25f4974951524eb45fff5c2ba889a", null ],
+    [ "hal_kit_hid_idle", "a00243.html#gaacf6310945889a6119cab867a1ced5e2", null ],
+    [ "hal_kit_hid_init", "a00243.html#ga95b4e99655383680272a1d9354d42479", null ],
+    [ "hal_kit_hid_post_init", "a00243.html#ga6f06bc1662b3d0361f6a241e1b5612f2", null ],
+    [ "hal_kit_hid_receive", "a00243.html#gaa80dfd4a91f557329fa1daf16b0f05a8", null ],
+    [ "hal_kit_hid_release", "a00243.html#ga8c7b9adb28b4bbdee8d5cd78ab16255f", null ],
+    [ "hal_kit_hid_send", "a00243.html#ga47588dbefadcc1569513b053a156f3d6", null ],
+    [ "hal_kit_hid_sleep", "a00243.html#ga1aa3345cb5d3e8fc29defe2758904fed", null ],
+    [ "hal_kit_hid_wake", "a00243.html#ga65289262310f2662b2c47450b93c9580", null ],
+    [ "kit_phy_num_found", "a00243.html#ga11ee6ec0b2b7eb2ff2472f92208c3205", null ],
+    [ "kit_phy_receive", "a00243.html#gabb507252b1011037d6d2cce7d91b01d0", null ],
+    [ "kit_phy_send", "a00243.html#gabd452e3edb32ea0d22653c182b4e1198", null ],
+    [ "_gHid", "a00243.html#gab97bfae6ae6051d081edf51bb45eea05", null ]
 ];

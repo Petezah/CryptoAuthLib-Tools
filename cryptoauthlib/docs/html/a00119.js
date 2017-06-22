@@ -1,6 +1,5 @@
 var a00119 =
 [
-    [ "atca_delay_10us", "a00195.html#ga19891182689551cc3a88603135959351", null ],
-    [ "atca_delay_ms", "a00195.html#ga80a853a202b089064bfc4b159c3418b4", null ],
-    [ "atca_delay_us", "a00195.html#ga7598dfcd6dcac882836544d48356d02f", null ]
+    [ "g_cert_def_2_device", "a00119.html#aad3677dc34bfab2f4a64e7ddff0df47a", null ],
+    [ "g_cert_template_2_device", "a00119.html#aaf4c29bf4fcdfaee142b8c85792e4451", null ]
 ];

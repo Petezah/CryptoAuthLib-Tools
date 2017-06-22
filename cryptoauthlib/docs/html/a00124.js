@@ -1,6 +1,11 @@
 var a00124 =
 [
-    [ "atca_delay_10us", "a00195.html#ga19891182689551cc3a88603135959351", null ],
-    [ "atca_delay_ms", "a00195.html#ga80a853a202b089064bfc4b159c3418b4", null ],
-    [ "atca_delay_us", "a00195.html#ga7598dfcd6dcac882836544d48356d02f", null ]
+    [ "MAX_I2C_BUSES", "a00243.html#gaf89a7a4080a47aa10a5504291db285bf", null ],
+    [ "ATCAI2CMaster_t", "a00243.html#gae8f36006f14bf6a9f4914bac69ed9f98", null ],
+    [ "i2c_read_write_flag", "a00243.html#gaa3e90779b37cd1b3a4d32321d9d8b772", [
+      [ "I2C_WRITE", "a00243.html#ggaa3e90779b37cd1b3a4d32321d9d8b772adbf6337ed546b3c21fd08c397a346bb2", null ],
+      [ "I2C_READ", "a00243.html#ggaa3e90779b37cd1b3a4d32321d9d8b772a30040082a257338fe25e5bd5136bc9a8", null ],
+      [ "I2C_WRITE", "a00243.html#ggaa3e90779b37cd1b3a4d32321d9d8b772adbf6337ed546b3c21fd08c397a346bb2", null ],
+      [ "I2C_READ", "a00243.html#ggaa3e90779b37cd1b3a4d32321d9d8b772a30040082a257338fe25e5bd5136bc9a8", null ]
+    ] ]
 ];

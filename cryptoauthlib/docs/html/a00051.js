@@ -1,5 +1,7 @@
 var a00051 =
 [
-    [ "pin_scl", "a00051.html#a1e96d24aa0e58af44ba1b9499dd2ce78", null ],
-    [ "pin_sda", "a00051.html#af5f7d5854b70fa9ec86264a5a09f4dfb", null ]
+    [ "read_handle", "a00051.html#a72bac4e370ad82aef68188c521d2020d", null ],
+    [ "read_handle", "a00051.html#a79525e0d472c02e26e7c4aa4a780c1d9", null ],
+    [ "write_handle", "a00051.html#ad0e471ff3d3f7c4ea0a7cc3e10e6b1b0", null ],
+    [ "write_handle", "a00051.html#af11a0103eb96a026ea6782bfcad7548e", null ]
 ];

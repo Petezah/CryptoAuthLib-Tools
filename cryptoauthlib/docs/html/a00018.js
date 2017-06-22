@@ -1,7 +1,8 @@
 var a00018 =
 [
-    [ "mac", "a00196.html#ga47ce138310dbdf748d76087b537e4b48", null ],
-    [ "parent_key", "a00196.html#ga9a4fdbedbff82aebf299581b9efa571e", null ],
-    [ "random", "a00196.html#ga56a0acddcb737a80ddd5a0ffcfeaedae", null ],
-    [ "target_key_id", "a00196.html#gaef11169e6cbbd8825f21b8cdcf5c1f0e", null ]
+    [ "key_id", "a00018.html#ac21eed4200889cc115d16a781871d01c", null ],
+    [ "sn", "a00018.html#aef45bac2efcd5394c4ed79f73ee16d23", null ],
+    [ "stored_value", "a00018.html#a7871fda0cd5698905bc3aa8fe8a99808", null ],
+    [ "temp_key", "a00018.html#a72fae3d62889ef224f09c57a7646e061", null ],
+    [ "zone", "a00018.html#ac746c3d65092170bfaf5b0d9950d8438", null ]
 ];

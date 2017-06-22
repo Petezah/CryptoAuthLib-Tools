@@ -1,7 +1,7 @@
 var a00048 =
 [
-    [ "der_integer", "a00048.html#a6bae6c1014a8ec615ac8330bfb888f5a", null ],
-    [ "der_integer_size", "a00048.html#a43e529b67b0a689e2982603e9b01a5f6", null ],
-    [ "int_data", "a00048.html#a770db19b08ef5a4f52bc606f8856406c", null ],
-    [ "int_data_size", "a00048.html#a818c8bb9dd41b597a2f2641dbcb3c569", null ]
+    [ "buf", "a00048.html#afa9986c74d11cc23893e2de2a505cafe", null ],
+    [ "byteCount", "a00048.html#a7dd834dde7d653957f91657aca4eb124", null ],
+    [ "byteCountHi", "a00048.html#a4f18b15c445fd0f55a0bf182e173d563", null ],
+    [ "h", "a00048.html#a015ca0a234558a1a0dbfc1e92f547ac0", null ]
 ];

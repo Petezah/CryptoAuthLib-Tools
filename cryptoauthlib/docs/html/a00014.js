@@ -1,10 +1,9 @@
 var a00014 =
 [
-    [ "client_resp", "a00196.html#gad83bd0567e340bab62291c229e061d99", null ],
-    [ "mode", "a00196.html#ga1a6b6fb557d8d37d59700faf4e4c9167", null ],
-    [ "other_data", "a00196.html#ga018527f369d21267692bf6eb6ba07dff", null ],
-    [ "otp", "a00196.html#ga8712cb73a4d6b370658d8bc9a77fba3e", null ],
-    [ "password", "a00196.html#ga9dbb300e28bc21c8dab41b01883918eb", null ],
-    [ "target_key", "a00196.html#ga26ff3ecc089054b089c2463d7310bd4f", null ],
-    [ "temp_key", "a00196.html#gaa17e031da4b22938bed1c21161ba371a", null ]
+    [ "mode", "a00014.html#a37e90f5e3bd99fac2021fb3a326607d4", null ],
+    [ "parent_key", "a00014.html#a000599eef5677ed1279b025c42ae260e", null ],
+    [ "sn", "a00014.html#aef45bac2efcd5394c4ed79f73ee16d23", null ],
+    [ "target_key", "a00014.html#afca67d3e5d5a7c772262731cc08880b1", null ],
+    [ "target_key_id", "a00014.html#a41104a8c85cd12c0fde0d791c3276a48", null ],
+    [ "temp_key", "a00014.html#a72fae3d62889ef224f09c57a7646e061", null ]
 ];

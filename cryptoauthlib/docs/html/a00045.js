@@ -1,8 +1,11 @@
 var a00045 =
 [
-    [ "bus_index", "a00045.html#af5c011e6c2e8d49675f7029e8ec2c0a6", null ],
-    [ "pin_sda", "a00045.html#afd6d53ef6b697533839248b40bc97861", null ],
-    [ "usart_instance", "a00045.html#ad1dd3236df177255a91b568170b70a74", null ],
-    [ "usart_instance", "a00045.html#a2d29ab9b8f0842ee9a2906302b20011d", null ],
-    [ "USART_SWI", "a00045.html#a7758bb1b871f6094e6d2f0c2ce10b18c", null ]
+    [ "_reserved", "a00045.html#ad64c25d49d8bac111d62c92a0e552289", null ],
+    [ "execTime", "a00045.html#a7f16544e2e38e2a389b69be0a7156986", null ],
+    [ "info", "a00045.html#a6478e57993fa20031932c6f611806dcc", null ],
+    [ "opcode", "a00045.html#a5c1b56e6bccc2a95dbddf1a08e56e87d", null ],
+    [ "param1", "a00045.html#aec4226da1b99c821237b6805c4e31333", null ],
+    [ "param2", "a00045.html#a16a7565b150a9c17a39c80fc932b9514", null ],
+    [ "rxsize", "a00045.html#a98e11ec1987c94d4f4658a80c46bde20", null ],
+    [ "txsize", "a00045.html#a3c02ddae56a01b6df3be14acf14915a4", null ]
 ];

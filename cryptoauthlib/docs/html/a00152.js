@@ -1,17 +1,13 @@
 var a00152 =
 [
-    [ "CL_HashContext", "a00047.html", "a00047" ],
-    [ "_NOP", "a00152.html#a46388d9db8422abfea56ae2323f7a77c", null ],
-    [ "_WDRESET", "a00152.html#a45e79c30522d47f4c30922b3d5b06b46", null ],
-    [ "leftRotate", "a00152.html#a56a88d6165ee36c482ddc9b82826dd47", null ],
-    [ "memcpy_P", "a00152.html#a3015d84f1e64c03564961de070d25328", null ],
-    [ "strcpy_P", "a00152.html#a3541bc4d0b928b2faa9ca63a100d1b75", null ],
-    [ "U16", "a00152.html#ad0b4d315e0f0b5d356886ec69d4bed08", null ],
-    [ "U32", "a00152.html#a8f953f379d243081b950adb7f194b2e8", null ],
-    [ "U8", "a00152.html#a2c0958af86f0590374e4324757c537f2", null ],
-    [ "CL_hash", "a00152.html#a955169bbbce9b4712cafb9b7372b5ffa", null ],
-    [ "CL_hashFinal", "a00152.html#a672902e6406b4e4e2af33c70ec7a001c", null ],
-    [ "CL_hashInit", "a00152.html#affa9482d686cc435d640d67d7fa79772", null ],
-    [ "CL_hashUpdate", "a00152.html#a55a33e7a22aff4aca4bccf39897bc5f1", null ],
-    [ "shaEngine", "a00152.html#a6f06fe48f7cacc212305b862b46fd9aa", null ]
+    [ "hal_swi_idle", "a00243.html#ga618291172976da96c4f02dc9200c845c", null ],
+    [ "hal_swi_init", "a00243.html#gaf406053c1a3f2a86bdc887f2ff4b663d", null ],
+    [ "hal_swi_post_init", "a00243.html#ga9186e5235979216330ae580290872c77", null ],
+    [ "hal_swi_receive", "a00243.html#ga02e9f36723f0feb21d373898728de04b", null ],
+    [ "hal_swi_release", "a00243.html#ga196dbc62546b39ac3e556a0f7f6b7132", null ],
+    [ "hal_swi_send", "a00243.html#gaeb8b8857192a7710785acce0110e8016", null ],
+    [ "hal_swi_sleep", "a00243.html#ga252e365a30f2583dae8a8eac073a9f53", null ],
+    [ "hal_swi_wake", "a00243.html#gafc428980ec95e37eee94813db229fe70", null ],
+    [ "swi_bus_ref_ct", "a00243.html#ga4656caa5bd357cc71fe66f4522d89e3f", null ],
+    [ "swi_hal_data", "a00243.html#ga95ca8e0b044cf56e85a8c581a4c703da", null ]
 ];

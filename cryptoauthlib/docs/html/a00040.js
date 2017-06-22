@@ -1,12 +1,9 @@
 var a00040 =
 [
-    [ "hal_data", "a00040.html#ad33508455720b78cc0fc880cb3f9885e", null ],
-    [ "halidle", "a00040.html#a3939b643c7f807fc8fe8abcf18e99196", null ],
-    [ "halinit", "a00040.html#aa020e68c9d18f83f205981fa57107b3c", null ],
-    [ "halpostinit", "a00040.html#af174424ba7b2d19a74c72f8b4198c26b", null ],
-    [ "halreceive", "a00040.html#af95136769fcc864880463d4dcab0c11c", null ],
-    [ "halrelease", "a00040.html#a5eb439f0ede23956fde8cd72f41b85ba", null ],
-    [ "halsend", "a00040.html#a6fb3aee6375216c53ef1e5a9df01e074", null ],
-    [ "halsleep", "a00040.html#ad2f432748c4d8efe98ec42d5cd1552b5", null ],
-    [ "halwake", "a00040.html#a033c21278fef7771916378cbcf726ae6", null ]
+    [ "tm_hour", "a00040.html#a4d171061df9e012fcfbd1172b8440d5f", null ],
+    [ "tm_mday", "a00040.html#a02048604d30b880033311cf542d63f92", null ],
+    [ "tm_min", "a00040.html#a987fa9280fe4cd6c6b8f77409f1c1504", null ],
+    [ "tm_mon", "a00040.html#ada983deda100b604bee5716512453658", null ],
+    [ "tm_sec", "a00040.html#a18df301c1a10c8d493da86ce5c2aea78", null ],
+    [ "tm_year", "a00040.html#a994c4f4519ba57e186580d21cc86f9e5", null ]
 ];

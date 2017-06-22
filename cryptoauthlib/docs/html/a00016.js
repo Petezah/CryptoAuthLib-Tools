@@ -1,5 +1,5 @@
 var a00016 =
 [
-    [ "crypto_data", "a00196.html#ga4155a23e70d1bf07de5d316efebeaee7", null ],
-    [ "temp_key", "a00196.html#gaa17e031da4b22938bed1c21161ba371a", null ]
+    [ "mCommands", "a00016.html#aac7a3ed180ba0fcf0d86f7b54ebc1379", null ],
+    [ "mIface", "a00016.html#aca75c68806e47e95144dc86a3f50d236", null ]
 ];

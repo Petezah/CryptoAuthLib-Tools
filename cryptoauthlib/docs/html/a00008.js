@@ -1,6 +1,6 @@
 var a00008 =
 [
-    [ "mCommands", "a00008.html#aac7a3ed180ba0fcf0d86f7b54ebc1379", null ],
-    [ "mIface", "a00008.html#aca75c68806e47e95144dc86a3f50d236", null ],
-    [ "mState", "a00008.html#a30ace2b8b7d09a159d6f8da42f91e90b", null ]
+    [ "next", "a00008.html#ad1d22d4f07d7a16e17076d97dfcf6b8b", null ],
+    [ "old_value", "a00008.html#a22eefe5979d9ff822eccf52dc57be1e8", null ],
+    [ "pointer", "a00008.html#ae6067d740982f25ff3cbd5ca68f0b0aa", null ]
 ];

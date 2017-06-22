@@ -1,5 +1,10 @@
 var a00019 =
 [
-    [ "mCommands", "a00019.html#aac7a3ed180ba0fcf0d86f7b54ebc1379", null ],
-    [ "mIface", "a00019.html#aca75c68806e47e95144dc86a3f50d236", null ]
+    [ "key_id", "a00019.html#ac21eed4200889cc115d16a781871d01c", null ],
+    [ "mode", "a00019.html#a37e90f5e3bd99fac2021fb3a326607d4", null ],
+    [ "other_data", "a00019.html#ac76ac607fd679316fc17b16039a86b9c", null ],
+    [ "public_key", "a00019.html#a122aff75e4ff5cd19542117ba3fdb855", null ],
+    [ "public_key_size", "a00019.html#aeaa21ee86ed67c665d190be7d12293c7", null ],
+    [ "sn", "a00019.html#aef45bac2efcd5394c4ed79f73ee16d23", null ],
+    [ "temp_key", "a00019.html#a72fae3d62889ef224f09c57a7646e061", null ]
 ];

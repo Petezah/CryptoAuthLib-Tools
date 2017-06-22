@@ -1,6 +1,5 @@
 var a00118 =
 [
-    [ "MAX_I2C_BUSES", "a00195.html#gaf89a7a4080a47aa10a5504291db285bf", null ],
-    [ "ATCAI2CMaster_t", "a00195.html#gae8f36006f14bf6a9f4914bac69ed9f98", null ],
-    [ "change_i2c_speed", "a00195.html#gab7f613b378e0d01b80703df3ac662d6d", null ]
+    [ "g_cert_def_1_signer", "a00118.html#a55a07310d9b492652d6f40797d2967de", null ],
+    [ "g_signer_1_ca_public_key", "a00118.html#a6c4b87edb6e203e53fc6e52ae7b2c8d2", null ]
 ];
