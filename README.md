@@ -3,6 +3,9 @@ Atmel CryptoAuthLib + my own HAL implementations
 
 See [./cryptoauthlib](https://github.com/Petezah/CryptoAuthLib/tree/master/cryptoauthlib) for Atmel CryptoAuthLib 20161123 and notes about that particular version.  The library itself is unchanged from Atmel's distribution.  Only my HAL implementations are unique in this repository.
 
+## Docs
+For doxygen-generated documentation of Atmel's library, see [https://petezah.github.io/CryptoAuthLib/docs/](https://petezah.github.io/CryptoAuthLib/docs/).  Other notes will be found here.
+
 ## Contents
 
 * atec_hal_raspi_i2c.cpp - A HAL implementation for the I2C bus on the Raspberry Pi
