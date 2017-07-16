@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{775132d2-f800-438a-8e4b-dc400020828b}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>ATECC508aTest</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Raspberry</TargetLinuxPlatform>
+    <LinuxProjectType>{8748239F-558C-44D1-944B-07B09C35B330}</LinuxProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent />
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\cryptoauthlib\lib;..\cryptoauthlib\lib\hal;..\cryptoauthlib\lib\host;..\cryptoauthlib\lib\basic;..\cryptoauthlib\lib\crypto;..\cryptoauthlib\lib\tls;..\cryptoauthlib\lib\atcacert;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ATCA_HAL_I2C;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\hal\atec_hal_raspi_i2c.cpp" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_client.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_date.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_def.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_der.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_host_hw.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atcacert\atcacert_host_sw.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atca_cfgs.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atca_command.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atca_device.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\atca_iface.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\basic\atca_basic.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\basic\atca_helpers.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_ecdsa.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_rand.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_sha1.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_sha2.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\hashes\sha1_routines.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\crypto\hashes\sha2_routines.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\hal\atca_hal.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\host\atca_host.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\tls\atcatls.c" />
+    <ClCompile Include="..\cryptoauthlib\lib\tls\atcatls_cfg.c" />
+    <ClCompile Include="gnublin.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_client.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_date.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_def.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_der.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_host_hw.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atcacert\atcacert_host_sw.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_bool.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_cfgs.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_command.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_compiler.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_device.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_devtypes.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_iface.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\atca_status.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\basic\atca_basic.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\basic\atca_helpers.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\cryptoauthlib.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_ecdsa.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_rand.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_sha1.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\atca_crypto_sw_sha2.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\hashes\sha1_routines.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\crypto\hashes\sha2_routines.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\hal\atca_hal.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\hal\atca_start_config.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\hal\atca_start_iface.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\host\atca_host.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\tls\atcatls.h" />
+    <ClInclude Include="..\cryptoauthlib\lib\tls\atcatls_cfg.h" />
+    <ClInclude Include="gnublin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cryptoauthlib\lib\tls\ec_cert-508.csr" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\;..\cryptoauthlib\lib;..\cryptoauthlib\lib\hal;..\cryptoauthlib\lib\host;..\cryptoauthlib\lib\basic;..\cryptoauthlib\lib\crypto;..\cryptoauthlib\lib\tls;..\cryptoauthlib\lib\atcacert;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ATCA_HAL_I2C;ATCAPRINTF</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

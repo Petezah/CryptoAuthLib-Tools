@@ -57,3 +57,5 @@ dkms.conf
 /obj/**
 **/*.user
 atca-tool-go/atca-tool-go
+**/.vs/**
+obj/
