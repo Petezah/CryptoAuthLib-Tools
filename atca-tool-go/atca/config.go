@@ -159,8 +159,8 @@ func parseKeyConfig(num int, kcv uint16) (*KeyConfig, error) {
 	if err != nil {
 		return nil, err
 	}
-	if num > 7 && (kc.KeyType == KeyTypeECC || kc.Private) {
-		return nil, errors.Errorf("only slots 0-7 can be used for ECC keys (slot: %d)", num)
+	if num > 7 && (kc.KeyType == KeyTypeECC && kc.Private) {
+		return nil, errors.Errorf("only slots 0-7 can be used for Private ECC keys (slot: %d)", num)
 	}
 	kc.Lockable = (kcv&0x20 != 0)
 	kc.ReqRandom = (kcv&0x40 != 0)

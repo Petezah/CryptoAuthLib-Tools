@@ -42,6 +42,9 @@ func atcaGetConfig(confData []byte) error {
 	f := getFormat(format, fn)
 
 	cfg, err := atca.ParseBinaryConfig(confData)
+	if err != nil {
+		return errors.Trace(err)
+	}
 
 	var s []byte
 	if f == "json" || f == "yaml" {
