@@ -8,6 +8,7 @@ For doxygen-generated documentation of Atmel's library, see [https://petezah.git
 
 ## Contents
 
+* hal/atca_hal_espfreertos_i2c.cpp - A HAL implementation to be used with the extras/i2c lib in [esp_open_rtos](https://github.com/SuperHouse/esp-open-rtos)
 * hal/atec_hal_raspi_i2c.cpp - A HAL implementation for the I2C bus on the Raspberry Pi
   * Details: Uses the [gnublin API](https://github.com/embeddedprojects/gnublin-api) for I2C and [Wiring Pi](http://wiringpi.com/) for a couple of delay functions it implements.  Wiring Pi's I2C implementation just did not work for me, at least the way CryptoAuthLib is expecting to interface with it anyway.  Gnublin's, on the other hand, is more flexible and seems a bit more robust.
 * test/main.cpp - A simple test to exercise some functions in the CryptoAuthLib API
